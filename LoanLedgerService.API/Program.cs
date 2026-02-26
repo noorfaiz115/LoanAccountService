@@ -68,7 +68,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddHttpClient<IEmiServiceClient, EmiClientService>(client =>
 {
-    client.BaseAddress = new Uri("http://emischedular-g8hyarczf2evhbdh.canadacentral-01.azurewebsites.net/api/Emi/");
+    client.BaseAddress = new Uri("https://emischedular-g8hyarczf2evhbdh.canadacentral-01.azurewebsites.net/api/Emi/");
 });
 
 
